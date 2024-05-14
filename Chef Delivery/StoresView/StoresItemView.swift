@@ -10,27 +10,23 @@ import SwiftUI
 struct StoresItemView: View {
 //    @State private var showPopup = false
     
-    let order: OrderType
+    let store: StoreType
     
     var body: some View {
         HStack {
-            Image(order.image)
+            Image(store.logoImage)
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(25)
                 .frame(width: 50, height: 50)
             VStack {
-                Text(order.name)
+                Text(store.name)
                     .font(.subheadline)
             }
             
             Spacer()
             
         }
-        .onTapGesture {
-            print("clicked \(order.name)")
-//            showPopup = true
-            }
 //        .fullScreenCover(isPresented: $showPopup) {
 //            PopupView(showPopup: $showPopup)
 //        }
@@ -53,6 +49,6 @@ struct StoresItemView: View {
 
 
 #Preview {
-    StoresItemView(order: OrderType(id: 1, name: "Monstro Burger", image: "monstro-burger-logo"))
+    StoresItemView(store: storesMock[0])
         .previewLayout(.sizeThatFits)
 }
