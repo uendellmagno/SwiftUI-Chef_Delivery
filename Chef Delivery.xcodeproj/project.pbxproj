@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260FDCEF2BF65F62003D3036 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260FDCEE2BF65F61003D3036 /* Double+.swift */; };
 		26563D0D2BC335A6009FFFFC /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26563D0C2BC335A6009FFFFC /* CarouselItemView.swift */; };
 		26563D0F2BC3390E009FFFFC /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26563D0E2BC3390E009FFFFC /* CarouselTabView.swift */; };
 		26563D122BC437C4009FFFFC /* StoresItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26563D112BC437C4009FFFFC /* StoresItemView.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260FDCEE2BF65F61003D3036 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		26563D0C2BC335A6009FFFFC /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
 		26563D0E2BC3390E009FFFFC /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		26563D112BC437C4009FFFFC /* StoresItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresItemView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260FDCED2BF65F49003D3036 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				260FDCEE2BF65F61003D3036 /* Double+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		26563D0B2BC33552009FFFFC /* CarouselView */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +149,7 @@
 		2675361D2BB4757400D51493 /* Chef Delivery */ = {
 			isa = PBXGroup;
 			children = (
+				260FDCED2BF65F49003D3036 /* Extension */,
 				2675365C2BB4774100D51493 /* App */,
 				267536542BB475EA00D51493 /* Model */,
 				267536592BB475F200D51493 /* NavigationBar */,
@@ -358,6 +369,7 @@
 				2675364E2BB475E100D51493 /* OrderTypeGridViewAlura.swift in Sources */,
 				268D8FE62BF3A66C002E6E0C /* StoreType.swift in Sources */,
 				26563D122BC437C4009FFFFC /* StoresItemView.swift in Sources */,
+				260FDCEF2BF65F62003D3036 /* Double+.swift in Sources */,
 				2675364F2BB475E100D51493 /* OrderTypeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
